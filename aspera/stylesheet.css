@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+a {
+    text-decoration: none;
+}
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*.img-bg img {
+    position: fixed;
+    height: 100%;
+    left: 27.5%;
+    opacity: 7%;
+}*/
+.img-logo img {
+    position: absolute;
+    z-index: 6;
+    height: 109px;
+    left: 25px;
+    top: 5.5px;
+}
+.nama {
+    position: absolute;
+    color: white;
+    font-size: 19px;
+    left: 160px;
+    top: 18px;
+    z-index: 6;
+}
+.socialmedia {
+    background-color: white;
+    height: 35px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.facebook {
+    padding-right: 40px;
+    color: rgb(230, 0, 0);
+    font-size: 20px;
+}
+.facebook:hover {
+    color: rgb(100, 2, 2);
+}
+.twitter {
+    padding-right: 40px;
+    color: rgb(230, 0, 0);
+    font-size: 20px;
+}
+.twitter:hover {
+    color: rgb(100, 2, 2);
+}
+.instagram {
+    padding-right: 65px;
+    color: rgb(230, 0, 0);
+    font-size: 20px;
+}
+.instagram:hover {
+    color: rgb(100, 2, 2);
+}
+.menu {
+    height: 60px; 
+    width: 100%;
+    background-color: rgb(161, 6, 6);
+    position: absolute;
+    z-index: 5;
+}
+.menu-items {
+    display: flex;
+    padding-top: 18px;
+    padding-left: 620px;
+}
+.beranda a {
+    color: rgb(255, 255, 255);
+    padding-right: 60px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.beranda a:hover {
+    color: rgb(253, 252, 179);
+}
+.kegiatan a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.kegiatan a:hover {
+    color: rgb(253, 252, 179);
+}   
+.drop-kegiatan {
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-right: 60px;
+}
+.kegiatan {
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+}
+.dropdown-kegiatan {
+    display: none;
+    background-color: rgb(161, 6 , 6);
+    width: 140px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.dropdown-kegiatan a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.kegiatan:hover .dropdown-kegiatan {
+    display: block;
+}
+.produk a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.produk a:hover {
+    color: rgb(253, 252, 179);
+}   
+.drop-produk {
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-right: 60px;
+}
+.produk {
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+}
+.dropdown-produk {
+    display: none;
+    background-color: rgb(161, 6, 6);
+    width: 140px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.dropdown-produk a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.produk:hover .dropdown-produk {
+    display: block;
+}
+.artikel a {
+    color: rgb(255, 255, 255);
+    padding-right: 60px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.artikel a:hover {
+    color: rgb(253, 252, 179);
+}
+.rcdivision a {
+    color: rgb(255, 255, 255);
+    padding-right: 0px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rcdivision a:hover {
+    color: rgb(253, 252, 179);
+}
+.poster-container {
+    height: 550px;
+    background-image: url(campherp.jpg);
+    background-position: center 821px;
+    background-size: cover;
+    position: relative;
+    top: 50px;
+}
+.daftar-kegiatan {
+    margin-top: 250px;
+    height: 1000px;
+    background-color: whitesmoke;
+}
+.edukasi-container {
+    width: 420px;
+    height: 320px;
+    margin-left: 170px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    outline-style: dashed;
+    outline-color: rgb(255, 176, 72);
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.edukasi-container h1 {
+    text-align: left;
+    color: rgb(172, 26, 16);
+    margin: 0px;
+    padding-top: 15px;
+}
+.edukasi-container img {
+    width: 263px;
+    float: left;
+    padding-right: 25px;
+    padding-top: 22px;
+}
+.edukasi-container p {
+    margin: 0px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.moreinfo {
+    color: rgb(110, 2, 2);
+    font-weight: bold;
+}
+.moreinfo:hover {
+    opacity: 70%;
+}
+.gathering-container {
+    width: 420px;
+    height: 310px;
+    margin-left: 90px;
+    padding-left: 30px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    outline-style:dashed;
+    outline-color: rgb(255, 176, 72);
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.gathering-container h1 {
+    text-align: left;
+    color: rgb(172, 26, 16);
+}
+.gathering-container img {
+    padding-top: 5px;
+    height: 200px;
+    float: left; 
+    padding-right: 25px;
+}
+.gathering-container p {
+    font-size: 15px;
+}
+.aklopedia-container {
+    width: 420px;
+    height: 280px;
+    margin-top: 100px;
+    margin-left: 170px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    outline-style: dashed;
+    outline-color: rgb(255, 176, 72);
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.aklopedia-container h1 {
+    text-align: left;
+    color: rgb(172, 26, 16);
+}
+.aklopedia-container img {
+    width: 250px;
+    float: left;
+    padding-right: 25px;
+}
+.aklopedia-container p {
+    font-size: 15px;
+}
+.campherp-container {
+    width: 420px;
+    height: 280px;
+    margin-top: 100px;
+    margin-left: 90px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    outline-style:dashed;
+    outline-color: rgb(255, 176, 72);
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.campherp-container h1 {
+    text-align: left;
+    color: rgb(172, 26, 16);
+}
+.campherp-container img {
+    height: 170px;
+    float: left; 
+    padding-right: 25px;
+}
+.campherp-container p {
+    font-size: 15px;
+}
+.menu-bawah {
+    background-color: rgb(37, 37, 37);
+    padding-left: 100px;
+    display: flex;
+    color: white;
+    height: 250px;
+}
+.aspera-bawah {
+    padding-left: 90px;
+}
+.aspera-bawah h1 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    color: rgb(212, 35, 35);
+    font-size: 40px;
+}
+.aspera-bawah p {
+    margin-top: 0px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(212, 35, 35);
+}
+.kegiatan-bawah {
+    padding-left: 180px;
+    padding-top: 25px;
+}
+.selected {
+    display: list-item;
+    list-style: none;
+    color: white;
+    padding-bottom: 10px;
+}
+.selected:hover {
+    color: rgb(194, 12, 12);
+}
+.kontak-bawah {
+    padding-left: 200px;
+    padding-top: 40px;
+    line-height: 0;
+}
+.kontak-bawah h2 {
+    padding-bottom: 20px;
+}
+.kontak-bawah p {
+    font-size: 15px;
+}
+.fas {
+    padding-right: 15px;
+}
+.bottom-container {
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    margin-top: -15px;
+}
+.contain p{
+    font-size: 13px;
+    padding-left: 100px;
+    padding-top: 8.5px;
+    color:grey;
+    font-family: sans-serif;
+}
+.far {
+    padding-right: 5px;
+}

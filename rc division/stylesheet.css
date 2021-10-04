@@ -1,0 +1,464 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+}
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sosmed {
+    background-color: rgb(37, 37, 37);
+    height: 35px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.facebook {
+    padding-right: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.facebook:hover {
+    color: rgb(255, 0, 0);
+}
+.twitter {
+    padding-right: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.twitter:hover {
+    color: rgb(255, 0, 0);
+}
+.instagram {
+    padding-right: 65px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.instagram:hover {
+    color: rgb(255, 0, 0);
+}
+.img-logo img {
+    position: absolute;
+    z-index: 6;
+    height: 90px;
+    left: 40px;
+    top: 20px;
+}
+.nama {
+    position: absolute;
+    color: white;
+    font-size: 18.5px;
+    left: 150px;
+    top: 17px;
+    z-index: 6;
+}
+.menu {
+    height: 60px; 
+    width: 100%;
+    background-color: rgb(161, 6, 6);
+    position: absolute;
+    z-index: 5;
+}
+.menu-items {
+    display: flex;
+    padding-top: 18px;
+    padding-left: 710px;
+}
+.beranda a {
+    color: rgb(255, 255, 255);
+    padding-right: 60px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.beranda a:hover {
+    color: rgb(253, 252, 179);
+}
+.services a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.services a:hover {
+    color: rgb(253, 252, 179);
+}   
+.drop-services {
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-right: 60px;
+}
+.services {
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+}
+.dropdown-services {
+    display: none;
+    background-color: rgb(161, 6 , 6);
+    width: 180px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.dropdown-services a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.services:hover .dropdown-services {
+    display: block;
+}
+.tips a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tips a:hover {
+    color: rgb(253, 252, 179);
+}   
+.drop-tips {
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-right: 60px;
+}
+.tips {
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+}
+.dropdown-tips {
+    display: none;
+    background-color: rgb(161, 6, 6);
+    width: 160px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.dropdown-tips a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.tips:hover .dropdown-tips {
+    display: block;
+}
+.artikel a {
+    color: rgb(255, 255, 255);
+    padding-right: 60px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.artikel a:hover {
+    color: rgb(253, 252, 179);
+}
+.poster {
+    background-image: url(assets/headline5.jpg);
+    height: 550px;
+    background-size: cover;
+    background-position: center 550px;
+    margin-top: 60px;
+}
+.poster h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: white;
+    text-align: left;
+    font-style: normal;
+    width: 480px;
+    background-color: rgba(204, 0, 0, 0.5);
+    height: 55px;
+    margin-left: 40px;
+    padding-top: 15px;
+    position: absolute;
+    top: 400px;
+}
+.poster h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: white;
+    text-align: left;
+    font-style: normal;
+    width: 400px;
+    background-color: rgba(204, 0, 0, 0.5);
+    height: 55px;
+    margin-left: 40px;
+    padding-top: 15px;
+    position: absolute;
+    top: 470px;
+}
+.professional {
+    width: 22%;
+    float: left;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 161.5px;
+    padding-right: 40px;
+}
+.professional img {
+    height: 80px;
+    width: 80px;
+    margin-left: 110px;
+}
+.professional h2 {
+    text-align: center;
+    color: rgb(138, 2, 2);
+}
+.professional p {
+    text-align: center;
+    color: rgb(138, 2, 2);
+}
+.sop {
+    width: 22%;
+    float: left;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.sop img {
+    height: 80px;
+    width: 80px; 
+    margin-left: 110px;   
+}
+.sop h2 {
+    text-align: center;
+    color: rgb(138, 2, 2);
+}
+.sop p {
+    text-align: center;
+    color: rgb(138, 2, 2);
+}
+.customer {
+    width: 22%;
+    float: left;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 157px;
+}
+.customer img {
+    height: 80px;
+    width: 80px;
+    margin-left: 110px;
+}
+.customer h2 {
+    text-align: center;
+    color: rgb(138, 2, 2);
+}
+.customer p {
+    text-align: center;
+    color: rgb(138, 2, 2);
+}
+.our-services {
+    width: 100%;
+    height: 2500px;
+    background-color: rgb(255, 255, 255);
+}
+.services-h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 45px;
+    color: rgb(212, 11, 11);
+    font-family:'Trebuchet MS';
+}
+.training {
+    background-color: rgb(255, 255, 255);
+    outline-style: solid;
+    width: 50%;
+    outline-width: thin;
+    margin-left: 180px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    position: relative;
+}
+.training-foto {
+    width: 310px;
+    height: 200px;
+    float: left;
+    background-image: url(assets/training.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 25px;
+    margin-top: 22.5px;
+}
+.training h1 {
+    position: absolute;
+    top: -48px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(212, 11, 11);
+}
+.management {
+    background-color: rgb(255, 255, 255);
+    outline-style: solid;
+    width: 50%;
+    outline-width: thin;
+    margin-left: 420px;
+    margin-top: 90px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    position: relative;
+}
+.management-foto {
+    width: 310px;
+    height: 200px;
+    float: left;
+    background-image: url(assets/inspection.jpeg);
+    background-position: center 308px;
+    background-size: cover;
+    margin-right: 25px;
+    margin-top: 22.5px;
+}
+.management h1 {
+    position: absolute;
+    top: -48px;
+    background-color: white;
+    margin-left: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(212, 11, 11);
+}
+.insect {
+    background-color: rgb(255, 255, 255);
+    outline-style: solid;
+    width: 50%;
+    outline-width: thin;
+    margin-left: 180px;
+    margin-top: 90px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    position: relative;
+}
+.insect-foto {
+    width: 310px;
+    height: 200px;
+    float: left;
+    background-image: url(assets/training.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 25px;
+    margin-top: 22.5px;
+}
+.insect h1 {
+    position: absolute;
+    top: -48px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(212, 11, 11);
+}
+.termite {
+    background-color: rgb(255, 255, 255);
+    outline-style: solid;
+    width: 50%;
+    outline-width: thin;
+    margin-left: 420px;
+    margin-top: 90px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    position: relative;
+}
+.termite-foto {
+    width: 310px;
+    height: 200px;
+    float: left;
+    background-image: url(assets/training.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 25px;
+    margin-top: 22.5px;
+}
+.termite h1 {
+    position: absolute;
+    top: -48px;
+    background-color: white;
+    margin-left: 370px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(212, 11, 11);
+}
+.menu-bawah {
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    color: white;
+    height: 250px;
+    width: 100%;
+}
+.aspera-bawah {
+    padding-left: 190px;
+}
+.aspera-bawah h1 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    color: rgb(212, 35, 35);
+    font-size: 40px;
+}
+.aspera-bawah p {
+    margin-top: 0px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(212, 35, 35);
+}
+.kegiatan-bawah {
+    padding-left: 150px;
+    padding-top: 25px;
+}
+.selected {
+    display: list-item;
+    list-style: none;
+    color: white;
+    padding-bottom: 10px;
+}
+.selected:hover {
+    color: rgb(194, 12, 12);
+}
+.kontak-bawah {
+    padding-left: 140px;
+    padding-top: 40px;
+    line-height: 0;
+}
+.kontak-bawah h2 {
+    padding-bottom: 20px;
+}
+.kontak-bawah p {
+    font-size: 15px;
+}
+.fas {
+    padding-right: 15px;
+}
+.bottom-container {
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    margin-top: -15px;
+}
+.contain p{
+    font-size: 13px;
+    padding-left: 100px;
+    padding-top: 8.5px;
+    color:grey;
+    font-family: sans-serif;
+}
+.far {
+    padding-right: 5px;
+}
